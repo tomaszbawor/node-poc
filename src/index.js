@@ -1,8 +1,8 @@
-var express = require('express');
-var app = express();
+import express from 'express';
+const app = express();
 
 app.get('/', function (req, resp) {
-resp.send("Hello world")
+resp.send("Hello world dumb shit!")
 });
 
 app.listen(4000, function () {
